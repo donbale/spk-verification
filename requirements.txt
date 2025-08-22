@@ -1,0 +1,10 @@
+SpeechRecognition
+vosk
+pyaudio
+python-dotenv
+scipy
+coremltools
+ane_transformers
+faster-whisper
+pyannote.audio
+torch
