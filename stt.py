@@ -20,7 +20,7 @@ class WhisperSTT:
             use_auth_token=os.getenv("HF_API_KEY")
         )
         self.inference = Inference(embeddingmodel, window="whole", device=self.device)
-        self.main_speaker_embedding = self.inference("chris.wav")
+        self.main_speaker_embedding = self.inference("yourname.wav")
 
         # Faster-Whisper model
         whisper_device = self.device.type  # "cuda" or "cpu"
